@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import DoneButton from './DoneButton'
+import Checklist from './Checklist'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <DoneButton />
-      </header>
+    <div className="App" style={{ height: "100%" }}>
+      <Checklist />
+      <DoneButton />
     </div>
   );
 }
